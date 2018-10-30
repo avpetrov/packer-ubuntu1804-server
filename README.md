@@ -5,15 +5,21 @@ Prerequisites:
 - Vagrant
 - Packer
 
-1) Build Vagrant box using Packer  
+1) Build Vagrant box using Packer
+```bash
 packer build ubuntu-18.04-vagrant.json  
+```
 
 2) Add, init and start Vagrant box  
+```bash
 vagrant box add ubuntu1804-64-server.box --name ubuntu1804-64-server  
 vagrant init ubuntu1804-64-server  
 vagrant up  
+```
 
 3) Remove Vagrant box  
+```bash
 vagrant halt  
 vagrant destroy  
 vagrant box remove ubuntu1804-64-server  
+```
