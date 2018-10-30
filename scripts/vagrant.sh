@@ -1,5 +1,4 @@
-#Скачиваем и устанавливаем небезопасный ключ Vagrant, 
-#который будет заменен на новый при первой загрузке
+#Download and install unsafe Vagrant key
 
 mkdir -p /home/vagrant/.ssh
 
