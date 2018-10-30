@@ -1,4 +1,4 @@
-#Packer Example - Ubuntu 18.04 Server Vagrant Box
+Packer Example - Ubuntu 18.04 Server Vagrant Box
 
 Prerequisites:
 - VirtualBox
